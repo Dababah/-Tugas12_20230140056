@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran Webinar Teknologi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Daftar Webinar Teknologi Terkini</h1>
+        <p>Jelajahi inovasi terbaru di dunia teknologi!</p>
+      </header>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama lengkap Anda"
+            required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email aktif Anda"
+            required />
+        </div>
+
+        <div class="form-group">
+          <label>Pilih Topik Webinar Favorit Anda:</label>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="ai"
+              name="topik"
+              value="Kecerdasan Buatan"
+              checked />
+            <label for="ai">Kecerdasan Buatan (AI)</label>
+          </div>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="blockchain"
+              name="topik"
+              value="Blockchain" />
+            <label for="blockchain">Blockchain & Kripto</label>
+          </div>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="cloud"
+              name="topik"
+              value="Cloud Computing" />
+            <label for="cloud">Cloud Computing</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" id="cyber" name="topik" value="Cybersecurity" />
+            <label for="cyber">Cybersecurity</label>
+          </div>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="data_science"
+              name="topik"
+              value="Data Science" />
+            <label for="data_science">Data Science</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="pesan">Pesan/Pertanyaan (opsional)</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="4"
+            placeholder="Ketik pesan atau pertanyaan Anda di sini..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Daftar Sekarang</button>
+      </form>
+      <footer>
+        <p>&copy; 2025 Webinar Teknologi Terkini. Semua Hak Dilindungi.</p>
+      </footer>
+    </div>
+  </body>
+</html>
